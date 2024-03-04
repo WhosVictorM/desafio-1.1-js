@@ -16,7 +16,7 @@ class Vertice {
     }
 
     distancia(outro) {
-        return Math.sqrt(Math.pow(this.#x - outro.getX(), 2) + Math.pow(this.#y - outro.getY(), 2));
+        return (Math.sqrt(Math.pow(this.#x - outro.getX(), 2) + Math.pow(this.#y - outro.getY(), 2))).toFixed(2);
     }
 
     move(x, y) {
