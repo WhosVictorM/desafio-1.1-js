@@ -15,8 +15,12 @@ class Vertice {
         return this.#y;
     }
 
+    getVertice(){
+        return [this.#x, this.#y]
+    }
+
     distancia(outro) {
-        return (Math.sqrt(Math.pow(this.#x - outro.getX(), 2) + Math.pow(this.#y - outro.getY(), 2))).toFixed(2);
+        return parseFloat((Math.sqrt(Math.pow(this.#x - outro.getX(), 2) + Math.pow(this.#y - outro.getY(), 2))).toFixed(2));
     }
 
     move(x, y) {
