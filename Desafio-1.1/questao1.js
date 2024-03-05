@@ -1,5 +1,5 @@
 const rs = require("readline-sync")
-const Vertice = require("./Vertice")
+const Vertice = require("./Class/Vertice")
 
 function lerCoords(num) {
     const coords1 = rs.question(`Digite as coordenadas do vertice ${num} (x,y): `).split(" ").map(Number)

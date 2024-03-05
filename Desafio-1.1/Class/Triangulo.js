@@ -1,5 +1,3 @@
-const Vertice = require("./Vertice");
-
 class Triangulo {
     #vertice1
     #vertice2

@@ -1,6 +1,6 @@
 const rs = require("readline-sync")
-const Vertice = require("./Vertice")
-const Triangulo = require("./Triangulo")
+const Vertice = require("./Class/Vertice")
+const Triangulo = require("./Class/Triangulo")
 
 const triangulos = []
 
